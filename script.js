@@ -22,6 +22,7 @@ function removeColor(element) {
   }, 1000);
 }
 
+
 function getRandomColor() {
   const colors = ["#e74c3c", "#8e44ad", "#3498db", "#e67e22", "#2ecc71"];
   return colors[Math.floor(Math.random() * colors.length)];

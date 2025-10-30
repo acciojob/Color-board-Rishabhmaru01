@@ -21,7 +21,8 @@ body {
 .square {
   width: 20px;
   height: 20px;
-  background-color: rgb(29, 29, 29); /* ✅ EXACT value Cypress expects */
+  background-color: rgb(29, 29, 29); /* exact match for Cypress */
   transition: background-color 1s ease;
   display: inline-block;
 }
+
