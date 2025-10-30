@@ -1,6 +1,7 @@
 const container = document.getElementById("container");
 const BOX_COUNT = 800;
 
+// Create 800 squares
 for (let i = 0; i < BOX_COUNT; i++) {
   const square = document.createElement("div");
   square.classList.add("square");
@@ -12,8 +13,7 @@ for (let i = 0; i < BOX_COUNT; i++) {
 }
 
 function setColor(element) {
-  const color = getRandomColor();
-  element.style.backgroundColor = color;
+  element.style.backgroundColor = getRandomColor();
 }
 
 function removeColor(element) {
