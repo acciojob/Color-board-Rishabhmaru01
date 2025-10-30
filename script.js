@@ -1,8 +1,6 @@
-//your JS code here. If required.
 const container = document.getElementById("container");
 const BOX_COUNT = 800;
 
-// Create 800 boxes
 for (let i = 0; i < BOX_COUNT; i++) {
   const square = document.createElement("div");
   square.classList.add("square");
@@ -20,7 +18,7 @@ function setColor(element) {
 
 function removeColor(element) {
   setTimeout(() => {
-    element.style.backgroundColor = "#1d1d1d";
+    element.style.backgroundColor = "rgb(29, 29, 29)";
   }, 1000);
 }
 
